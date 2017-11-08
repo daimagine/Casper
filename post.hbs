@@ -29,6 +29,7 @@ into the {body} of the default.hbs template --}}
 
             {{#if feature_image}}
             <figure class="post-full-image" style="background-image: url({{feature_image}})">
+                <figcaption class="post-full-image-caption">{{feature_image_caption}}</figcaption>
             </figure>
             {{/if}}
 
